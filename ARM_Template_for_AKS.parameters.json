@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "clusterName": {
+            "value": "akinaks"
+        },
+        "location": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "dnsPrefix": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "osDiskSizeGB": {
+            "value": 0
+        },
+        "agentCount": {
+            "value": 1
+        },
+        "agentVMSize": {
+            "value": "standard_B2s"
+        },
+        "linuxAdminUsername": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "sshRSAPublicKey": {
+            "value": "" // TODO: Fill in parameter value
+        }
+    }
+}
