@@ -1,4 +1,4 @@
-# Deploy an Azure Kubernetes Service (AKS) cluster using an ARM template
+# Create Azure Kubernetes Service (AKS) cluster using an ARM template
 
 ## 1. Before you begin
 * To create an AKS cluster using an ARM template, you   provide an SSH public key
